@@ -56,7 +56,9 @@ NewsFilters.propTypes = {
   hasPhoto: PropTypes.bool.isRequired,
   hasLink: PropTypes.bool.isRequired,
   isSpecial: PropTypes.bool.isRequired,
+  searchText: PropTypes.string.isRequired,
   handleChangeForPhoto: PropTypes.func.isRequired,
+  handleChangeSearchText: PropTypes.func.isRequired,
   handleChangeForLink: PropTypes.func.isRequired,
   handleChangeForIsSpecial: PropTypes.func.isRequired,
 };
@@ -65,4 +67,5 @@ NewsFilters.defaultProps = {
   hasPhoto: false,
   hasLink: false,
   isSpecial: false,
+  searchText: "",
 };

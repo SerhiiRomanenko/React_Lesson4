@@ -67,6 +67,10 @@ NewsPage.propTypes = {
   hasLink: PropTypes.bool.isRequired,
   isSpecial: PropTypes.bool.isRequired,
   searchText: PropTypes.string.isRequired,
+  handleChangeForPhoto: PropTypes.func.isRequired,
+  handleChangeSearchText: PropTypes.func.isRequired,
+  handleChangeForLink: PropTypes.func.isRequired,
+  handleChangeForIsSpecial: PropTypes.func.isRequired,
 };
 
 NewsPage.defaultProps = {
